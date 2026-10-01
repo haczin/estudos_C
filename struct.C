@@ -14,7 +14,7 @@ typedef struct{
 
 int main(){
 	
-	Aluno aluno1;
+	Aluno aluno1; // Aluno é a estrutura e aluno1 é a variavel 
 	
 	
 	printf("=============== CADASTRAR ALUNO===============\n");
