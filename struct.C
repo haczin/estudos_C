@@ -20,7 +20,7 @@ int main(){
 	printf("=============== CADASTRAR ALUNO===============\n");
 	
 	printf("Nome: ");
-	scanf("%49[^\n]", aluno1.nome);  // \n é o enter, ultimo caractere
+	scanf(" %49[^\n]", aluno1.nome); // \n é o enter, ultimo caractere
 	
 	printf("RA: ");
 	scanf("%14s", aluno1.ra);
@@ -32,6 +32,24 @@ int main(){
 	printf("\nNome: %s", aluno1.nome);
 	printf("\nRA: %s", aluno1.ra);
 	printf("\nNota: %.1f", aluno1.nota);
+		
+		
+	Aluno aluno2;
+		printf("=============== CADASTRAR ALUNO===============\n");
+	
+	printf("\nNome: ");
+	scanf(" %49[^\n]", aluno2.nome);  // 
+	
+	printf("\nRA: ");
+	scanf("%14s", aluno2.ra);
+	
+	printf("\nNota: ");
+	scanf("%f", &aluno2.nota);
+	
+	printf("\n=============== DADOS DOS ALUNOS ==============");
+	printf("\nNome: %s", aluno2.nome);
+	printf("\nRA: %s", aluno2.ra);
+	printf("\nNota: %.1f", aluno2.nota);
 		
 	
 	
