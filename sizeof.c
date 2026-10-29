@@ -4,6 +4,7 @@ int main() {
     int vetor[9] = {10, 20, 30, 40, 50, 60, 70, 80, 90};
     
     int tamanho = sizeof(vetor) / sizeof(vetor[0]);
+    // operador unário na linguagem C que retorna o tamanho, em bytes, de uma variável ou de um tipo de dado.
     
     int elementoProcurado;
     printf("******** BUSCA BINARIA *********");
